@@ -1,0 +1,6 @@
+github3.py
+six
+
+[test]
+pytest
+mock
