@@ -2,9 +2,9 @@
 Projet de Machine Learning sur la prédiction de biens immobiliers
 Lien vers le challenge : https://challengedata.ens.fr/participants/challenges/68/
 
-Ancien Repertoire Github : https://github.com/Stevenworick/ML_ENSAE
+Ancien Repertoire Github : https://github.com/Stevenworick/ML_ENSAE (Problèmes de versions entre nos différents ordinateur et le serveur en ligne -Novices sur GitHub)
 
-Sources données additionnelles : 
+ **1. Sources données additionnelles :** 
 
 RATP : https://data.iledefrance-mobilites.fr/explore/dataset/emplacement-des-gares-idf/export/
 
@@ -15,3 +15,17 @@ Ecole Primaire et Secondaire (de la maternelle au lycée) : https://data.educati
 Entreprises Francaises : https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/
 
 API coordonnées : https://adresse.data.gouv.fr/api-doc/adresse
+
+**2. Bibliographie - Documentation  :** 
+
+
+
+**3. Cartographie des différents codes :**
+
+- Real Estate - MLENSAE + ML : Code principale
+- Coord.py : Code permettant la récupération des coordonnées des entreprises françaises à partir des adresses de la base SIRENE
+- Test Para : Code permettant le calcul des distances entre les annonces et les infrastructures. Utilisation de la parallélisation 
+              afin de gagner en temps de calcul
+- Only ML : Notebook avec les tests ML à lancer sur l'ordinateur à distance
+- Images Features : Notebook permettant l'ajout de features à partir des photos de l'annonce.
+
