@@ -2,7 +2,7 @@
 Projet de Machine Learning sur la prédiction de biens immobiliers
 Lien vers le challenge : https://challengedata.ens.fr/participants/challenges/68/
 
-Ancien Repertoire Github : https://github.com/Stevenworick/ML_ENSAE (Problèmes de versions entre nos différents ordinateur et le serveur en ligne -Novices sur GitHub)
+Ancien Repertoire Github : https://github.com/Stevenworick/ML_ENSAE (Problèmes de versions entre nos différents ordinateur et le serveur en ligne - Novices sur GitHub)
 
  **1. Sources données additionnelles :** 
 
@@ -26,6 +26,7 @@ API coordonnées : https://adresse.data.gouv.fr/api-doc/adresse
 - Coord.py : Code permettant la récupération des coordonnées des entreprises françaises à partir des adresses de la base SIRENE
 - Test Para : Code permettant le calcul des distances entre les annonces et les infrastructures. Utilisation de la parallélisation 
               afin de gagner en temps de calcul
+- Features_Distance.ipynb : Notebook ouvrant l'ensembles des matrices de distances (.csv) et qui calcule les featurs (distance minimal, nombre d'infrastructure à moins de X kilomètre, etc.) et qui sauvegarde DistanceEcole et DistanceGare dans le but d'etre utilisé dans le fichier Main.
 - Only ML : Notebook avec les tests ML à lancer sur l'ordinateur à distance
 - Images Features : Notebook permettant l'ajout de features à partir des photos de l'annonce.
 
