@@ -19,7 +19,7 @@ API coordonnées : https://adresse.data.gouv.fr/api-doc/adresse
 **2. Différents codes :**
 
 - Real Estate - ML - ENSAE - DOUCET - WORICK : Code principale
-- Only Machine Learning : Notebook avec les tests ML à lancer sur l'ordinateur à distance
+- Only Machine Learning : Notebook avec les tests ML et notamment l'optimisation avec le GridSearch
 - DOUCET - WORICK - WITH IMAGES : Notebook avec l'utilisation des images : extraction de features et Machine Learning
 
 
