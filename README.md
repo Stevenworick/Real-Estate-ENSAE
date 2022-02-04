@@ -2,7 +2,7 @@
 Projet de Machine Learning sur la prédiction de biens immobiliers
 Lien vers le challenge : https://challengedata.ens.fr/participants/challenges/68/
 
-Ancien Repertoire Github : https://github.com/Stevenworick/ML_ENSAE (Problèmes de versions entre nos différents ordinateur et le serveur en ligne - Novices sur GitHub)
+Ancien Repertoire Github : https://github.com/Stevenworick/ML_ENSAE (Problèmes de versions entre nos différents ordinateurs et le serveur en ligne - Novices sur GitHub)
 
  **1. Sources données additionnelles :** 
 
@@ -16,17 +16,18 @@ Entreprises Francaises : https://www.data.gouv.fr/fr/datasets/base-sirene-des-en
 
 API coordonnées : https://adresse.data.gouv.fr/api-doc/adresse
 
-**2. Bibliographie - Documentation  :** 
+**2. Différents codes :**
+
+- Real Estate - ML - ENSAE - DOUCET - WORICK : Code principale
+- Only Machine Learning : Notebook avec les tests ML à lancer sur l'ordinateur à distance
+- DOUCET - WORICK - WITH IMAGES : Notebook avec l'utilisation des images : extraction de features et Machine Learning
 
 
-
-**3. Cartographie des différents codes :**
-
-- Real Estate - MLENSAE + ML : Code principale
 - Coord.py : Code permettant la récupération des coordonnées des entreprises françaises à partir des adresses de la base SIRENE
 - Test Para : Code permettant le calcul des distances entre les annonces et les infrastructures. Utilisation de la parallélisation 
               afin de gagner en temps de calcul
 - Features_Distance.ipynb : Notebook ouvrant l'ensembles des matrices de distances (.csv) et qui calcule les featurs (distance minimal, nombre d'infrastructure à moins de X kilomètre, etc.) et qui sauvegarde DistanceEcole et DistanceGare dans le but d'etre utilisé dans le fichier Main.
-- Only ML : Notebook avec les tests ML à lancer sur l'ordinateur à distance
+
+
 - Images Features : Notebook permettant l'ajout de features à partir des photos de l'annonce.
 
